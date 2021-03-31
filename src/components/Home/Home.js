@@ -17,9 +17,7 @@ const Home = () => {
         <div>
              <div className="product-container">
                  {
-                     products.length === 0 && <div class="progress">
-                     <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                   </div>
+                     products.length === 0 && <p class="text-center mt-5" style={{color:'salmon'}}>Loading...</p>
                  }
                  {
                    products.map(pd => <Product pd={pd}></Product>)
