@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Inventory from '../Inventory/Inventory';
 import './ManageProduct.css';
+import DeleteIcon from '@material-ui/icons/Delete';
 
 const ManageProduct = () => {
     const [products, setProducts] = useState([]); 
@@ -47,7 +48,7 @@ const ManageProduct = () => {
                     <td>{pd.name}</td>
                     <td>1</td>
                     <td>{pd.price}</td>
-                    <td><button class="btn btn-secondary" onClick={() => handleRemove(pd._id)}>Delete</button></td>
+                    <td><button class="btn btn-secondary" onClick={() => handleRemove(pd._id)}><DeleteIcon></DeleteIcon> Delete</button></td>
                   </tr> )
                     
                 }
