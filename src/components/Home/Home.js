@@ -16,9 +16,7 @@ const Home = () => {
     return (
         <div>
              <div className="product-container">
-                 {
-                     products.length === 0 && <p class="text-center mt-5" style={{color:'salmon'}}>Loading...</p>
-                 }
+                  
                  {
                    products.map(pd => <Product pd={pd}></Product>)
                  }
