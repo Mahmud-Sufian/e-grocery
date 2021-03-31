@@ -22,7 +22,7 @@ const AddProduct = () => {
           imageURL: imageURL, 
           date:new Date()
         };
-        const url = `https://frozen-escarpment-70638.herokuapp.com/addProduct`;
+        const url = ` https://whispering-chamber-45293.herokuapp.com/addProduct`;
         
         fetch(url, {
           method: 'POST', 

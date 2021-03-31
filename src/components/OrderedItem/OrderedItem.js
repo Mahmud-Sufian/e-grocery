@@ -12,7 +12,7 @@ const OrderedItem = () => {
   
     
     useEffect(() => {
-        fetch('https://frozen-escarpment-70638.herokuapp.com/getOrder?email='+loggedInUser.email, {
+        fetch(' https://whispering-chamber-45293.herokuapp.com/getOrder?email='+loggedInUser.email, {
             method:'GET',
             headers:{
                 'Content-Type' : 'application/json',

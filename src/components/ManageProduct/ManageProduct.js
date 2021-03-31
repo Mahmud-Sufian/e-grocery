@@ -6,13 +6,13 @@ const ManageProduct = () => {
     const [products, setProducts] = useState([]); 
 
     useEffect(() => {
-        fetch('https://frozen-escarpment-70638.herokuapp.com/allProduct')
+        fetch(' https://whispering-chamber-45293.herokuapp.com/allProduct')
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
 
     const handleRemove = (id) => { 
-        fetch(`https://frozen-escarpment-70638.herokuapp.com/delete/${id}`, {
+        fetch(` https://whispering-chamber-45293.herokuapp.com/delete/${id}`, {
             method:'DELETE'
         })
         .then(res => res.json())

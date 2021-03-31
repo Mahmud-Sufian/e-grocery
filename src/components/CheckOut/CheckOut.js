@@ -14,7 +14,7 @@ const CheckOut = () => {
   
      
   useEffect(() => {
-    fetch(`https://frozen-escarpment-70638.herokuapp.com/singleProduct/${id}`)
+    fetch(` https://whispering-chamber-45293.herokuapp.com/singleProduct/${id}`)
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, [id]);
@@ -26,7 +26,7 @@ const CheckOut = () => {
           date:new Date(),
           ...loggedInUser
         }
-      fetch('https://frozen-escarpment-70638.herokuapp.com/addOrder', {
+      fetch(' https://whispering-chamber-45293.herokuapp.com/addOrder', {
           method: 'POST',
           headers : {'Content-Type' : 'application/json'},
           body: JSON.stringify(newItem)
