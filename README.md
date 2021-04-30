@@ -1,26 +1,23 @@
 ### Site Name : E-Grocery
+<br/>
 
-Live Site : https://e-grocery-dcb43.web.app/
+[![e-grocery](https://i.ibb.co/rmZx9c3/grocery-1.png)](https://e-grocery-dcb43.web.app/)
+### Live Site : 
+
 <br> 
 
 ### Feature:  
--A full stack E-Grocery application for social people,where they can get Grocery according to their choice. 
-<br/>
--An E-Grocery admin can organise every Product. admin can remove any Product  any time
-<br/>
+- A full stack E-Grocery application for social people,where they can get Grocery according to their choice. 
+- An E-Grocery admin can organise every Product. admin can remove any Product  any time
+ 
 
 ### Technology: 
- -React
- <br/>
- -React-router
- <br/>
- -Node.js
- <br/>
- -MongoDB
- <br/>
- -Firebase Authentication
- <br/>
- -Heroku 
+ - React 
+ - React-router 
+ - Node.js 
+ - MongoDB 
+ - Firebase Authentication 
+ - Heroku 
  
 <hr> 
 <br>
